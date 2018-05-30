@@ -6,6 +6,7 @@
   "keywords": ["animation", "transition", "flip", "react"],
   "main": "src/index.js",
   "dependencies": {
+    "popmotion-pose": "2.0.1",
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-flip-move": "3.0.2",

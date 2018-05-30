@@ -4,16 +4,16 @@ import Flippable from "/src/components/Flippable";
 
 const Flipper = posed(Flippable)({
   expanded: {
-    position: "fixed",
+    position: () => "fixed",
     top: 0,
     left: 0,
     width: "90%",
     height: "90%",
     margin: 20,
-    fip: true
+    flip: true
   },
   inline: {
-    position: "relative",
+    position: () => "relative",
     top: 0,
     left: 0,
     width: 100,
