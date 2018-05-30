@@ -1,0 +1,24 @@
+{
+  "name": "inline-to-fullscreen-fliping-in-react",
+  "version": "1.0.0",
+  "description":
+    "Comparing different libraries' implementation of layout-changing FLIP. I'm trying to have a single inline element elegantly animate to fixed fullscreen and back again.",
+  "keywords": ["animation", "transition", "flip", "react"],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-flip-move": "3.0.2",
+    "react-pose": "2.0.0",
+    "react-scripts": "1.1.4",
+    "react-spring": "5.3.8",
+    "styled-components": "3.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
